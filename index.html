@@ -2,73 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kitty code 🐾</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <link rel="stylesheet" href="css/style.css" />
-        <style>
-  /* Ajusta estos valores si quieres */
-  :root{
-    --alto: 280px; /* altura del carrusel */
-    --duracion: 25s; /* tiempo total para recorrer todas las diapositivas */
-  }
-
-  .carousel{
-    position: relative;
-    width: 100%;
-    max-width: 900px;
-    height: var(--alto);
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 16px;
-  }
-
-  .track{
-    display: flex;
-    height: 100%;
-    /* 5 imágenes + 5 clonadas = 10; nos movemos -500% y vuelve al inicio sin salto */
-    animation: slide var(--duracion) linear infinite;
-  }
-
-  .slide{
-    flex: 0 0 100%;
-    height: 100%;
-    position: relative;
-  }
-
-  .slide img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    /* Movimiento suave (Ken Burns) */
-    animation: zoom 8s ease-in-out infinite alternate;
-    transform-origin: center;
-    display: block;
-  }
-
-  /* Pausar al pasar el mouse */
-  .carousel:hover .track,
-  .carousel:hover .slide img{
-    animation-play-state: paused;
-  }
-
-  @keyframes slide{
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-500%); } /* 5 pantallas a la izquierda */
-  }
-
-  @keyframes zoom{
-    from { transform: scale(1); }
-    to { transform: scale(1.08); }
-  }
-  @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kitty code 🐾</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
@@ -77,7 +17,7 @@
 
       <a class="navbar-brand" href="#">Código Rosa 🐾</a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -98,24 +38,31 @@
     </div>
   </nav>
 
-  <h1 style="text-align: center;">✨ CONÓCENOS MÁS ✨</h1>
-    <br>
-<div class="carousel">
-  <div class="track">
-    <!-- 5 imágenes originales -->
-    <div class="slide"><img src="https://data.textstudio.com/output/sample/animated/5/9/4/7/html-3-17495.gif" alt="Imagen 1"></div>
-    <div class="slide"><img src="https://www.shutterstock.com/image-vector/website-programming-coding-html-css-260nw-1604496322.jpg" alt="Imagen 2"></div>
-    <div class="slide"><img src="https://img.freepik.com/vector-premium/mujer-sienta-escritorio-computadora-portatil-hombre-habla-mujer_9206-8931.jpg" alt="Imagen 3"></div>
-    <div class="slide"><img src="https://media.tenor.com/bCfpwMjfAi0AAAAM/cat-typing.gif" alt="Imagen 4"></div>
-    <div class="slide"><img src="https://data.textstudio.com/output/sample/animated/5/9/4/7/html-3-17495.gif" alt="Imagen 5"></div>
 
-    <!-- 5 imágenes clonadas (mismo orden) para hacer el bucle perfecto -->
-    <div class="slide"><img src="https://data.textstudio.com/output/sample/animated/5/9/4/7/html-3-17495.gif" alt="Imagen 1"></div>
-    <div class="slide"><img src="https://www.shutterstock.com/image-vector/website-programming-coding-html-css-260nw-1604496322.jpg" alt="Imagen 2"></div>
-    <div class="slide"><img src="https://img.freepik.com/vector-premium/mujer-sienta-escritorio-computadora-portatil-hombre-habla-mujer_9206-8931.jpg" alt="Imagen 3"></div>
-    <div class="slide"><img src="https://media.tenor.com/bCfpwMjfAi0AAAAM/cat-typing.gif" alt="Imagen 4"></div>
-    <div class="slide"><img src="https://data.textstudio.com/output/sample/animated/5/9/4/7/html-3-17495.gif" alt="Imagen 5"></div>
-  </div>
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a href="https://wa.me/51999999999" target="_blank" class="whatsapp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <h1 style="text-align: center;">✨ CONÓCENOS MÁS ✨</h1>
+  <br>
 
 </html>
