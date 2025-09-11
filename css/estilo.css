@@ -1,5 +1,5 @@
 body {
-    background-color: #ffc6ff;
+    background-color: #fefefe;
 }
 
 /* ✅ corregido: ahora con punto .container */
@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-    background: linear-gradient(to right, #b4f2ff, #e4ffbb);
+    background: linear-gradient(to right, #eea9ee, #f6faef ,#ffc6ff);
     padding: 30px;
 }
 
